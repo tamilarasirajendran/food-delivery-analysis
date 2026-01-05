@@ -22,7 +22,7 @@ online_food_delivery_analysis/
 
 
 ## Quick Start
-1. Clone repo: `git clone <your-repo-url>`
+1. Clone repo: `https://tamilarasirajendran.github.io/food-delivery-analysis/
 2. Open PowerBI file: powerbi/food_delivery_dashboard.pbix
 3. Run SQL: sql_scripts/tables.sql
 4. Notebooks execute pannu Jupyter-ல.
