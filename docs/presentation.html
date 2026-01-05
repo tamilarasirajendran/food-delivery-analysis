@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery Analysis - Presentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            overflow-x: hidden;
+        }
+
+        .slide {
+            width: 960px;
+            height: 540px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+            position: relative;
+            overflow: hidden;
+            background-color: #0f172a;
+            color: #f1f5f9;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #38bdf8;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.25rem;
+            color: #38bdf8;
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 1.75rem;
+            color: #38bdf8;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 1.125rem;
+            color: #cbd5e1;
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+
+        ul {
+            margin-left: 2rem;
+            font-size: 1.125rem;
+            color: #cbd5e1;
+            line-height: 1.8;
+        }
+
+        li {
+            margin-bottom: 12px;
+        }
+
+        .subtitle {
+            font-size: 1.5rem;
+            color: #cbd5e1;
+            margin-bottom: 30px;
+        }
+
+        .metadata {
+            font-size: 0.875rem;
+            color: #94a3b8;
+            margin-top: 30px;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .row {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .col {
+            flex: 1;
+        }
+
+        .highlight {
+            color: #38bdf8;
+            font-weight: bold;
+        }
+
+        .stat-box {
+            background-color: #1e293b;
+            padding: 20px;
+            border-left: 4px solid #38bdf8;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            color: #38bdf8;
+            font-weight: bold;
+        }
+
+        .stat-label {
+            font-size: 1rem;
+            color: #cbd5e1;
+        }
+
+        .card {
+            background-color: #1e293b;
+            padding: 20px;
+            border-left: 4px solid #38bdf8;
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+<section class="slide center">
+    <h1>Food Delivery Analysis Dashboard</h1>
+    <p class="subtitle">ETL Pipeline + Interactive PowerBI Analytics</p>
+    <p>Student Project | GUVI Data Science Bootcamp</p>
+    <p class="metadata">January 2026</p>
+</section>
+
+<section class="slide">
+    <h2>Problem Statement</h2>
+    <ul>
+        <li><span class="highlight">Dataset:</span> 100,000+ food delivery orders</li>
+        <li><span class="highlight">Goal:</span> Revenue & operational insights</li>
+        <li><span class="highlight">Solution:</span> Python + SQL + Power BI</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Dataset Overview</h2>
+    <div class="row">
+        <div class="stat-box col">
+            <div class="stat-number">100K+</div>
+            <div class="stat-label">Orders</div>
+        </div>
+        <div class="stat-box col">
+            <div class="stat-number">25</div>
+            <div class="stat-label">Features</div>
+        </div>
+        <div class="stat-box col">
+            <div class="stat-number">4</div>
+            <div class="stat-label">CSV Files</div>
+        </div>
+    </div>
+</section>
+
+<section class="slide">
+    <h2>Technology Stack</h2>
+    <div class="row">
+        <div class="card">Python (Pandas, NumPy)</div>
+        <div class="card">MySQL</div>
+        <div class="card">Power BI</div>
+        <div class="card">GitHub</div>
+    </div>
+</section>
+
+<section class="slide">
+    <h2>ETL Pipeline</h2>
+    <ul>
+        <li>Extract – CSV Files</li>
+        <li>Transform – Cleaning & Feature Engineering</li>
+        <li>Load – SQL Database</li>
+        <li>Visualize – Power BI Dashboard</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Key Insights</h2>
+    <ul>
+        <li>46.9% orders during peak hours</li>
+        <li>28.6% revenue from weekends</li>
+        <li>Senior customers have highest order value</li>
+    </ul>
+</section>
+
+<section class="slide">
+    <h2>Business Impact</h2>
+    <ul>
+        <li>Improved customer segmentation</li>
+        <li>Better delivery workforce planning</li>
+        <li>Revenue-focused decision making</li>
+    </ul>
+</section>
+
+<section class="slide center">
+    <h1>Thank You</h1>
+    <p>GitHub: github.com/tamilarasirajendran/food-delivery-analysis</p>
+</section>
+
+</body>
+</html>
